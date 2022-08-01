@@ -101,7 +101,3 @@ def delete():
         pickle.dump(id_feature_list, f)
 
     return json.dumps('success')
-
-
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080)
